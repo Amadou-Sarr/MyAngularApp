@@ -1,2 +1,2 @@
 # MyAngularApp
-+ Application done Whit KBT of We-IT
++ Application done with KBT of We-IT
