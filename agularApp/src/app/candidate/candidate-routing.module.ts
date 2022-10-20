@@ -4,7 +4,7 @@ import {CreateCandidateComponent} from "./create-candidate/create-candidate.comp
 
 const routes: Routes = [
   {
-    path : '/create',
+    path : 'create',
     component : CreateCandidateComponent
   }
 ];
