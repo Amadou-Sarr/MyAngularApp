@@ -13,28 +13,7 @@ const routes: Routes = [
     path: 'candidate',
     //@ts-ignore
     loadChildren :() => CandidateModule
-  }/*,
-  {
-    path: '**',
-    redirectTo : "/candidate"
-  }*/
-/*  {
-    path : '/candidate',
-    //canActivate : [AppGuardService],
-  //  data : {
-  //    roles : ["ROLE_ADMIN", "ROLE_SUPERUSER"]
-  //  },
-    pathMatch : "full"
-  },*/
-/*,
-  {
-    path: 'statistics',
-    canActivate: [AppAuthGuard],
-    data: {
-      roles: [Constantes.ROLE_ADMIN]
-    },
-    loadChildren : () => import('./main/statistics/statistics.module').then(m => m.StatisticsModule)
-  },*/
+  }
 ];
 
 @NgModule({
